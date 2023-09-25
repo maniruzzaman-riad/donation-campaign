@@ -10,6 +10,7 @@ import Root from './Componant/Root/Root.jsx';
 import Home from './Componant/Home/Home';
 import PieChart from './Componant/Page/PieChart/PieChart';
 import AllDonation from './Componant/Page/AllDonation/AllDonation';
+import Details from './Componant/Page/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path:'/pie',
         element:<PieChart></PieChart>
+      },
+      {
+        path:'/details/:id',
+        element:<Details></Details>,
+        loader:()=>fetch('data.json')
       }
     ]
   }

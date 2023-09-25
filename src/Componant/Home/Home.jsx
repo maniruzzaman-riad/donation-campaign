@@ -1,4 +1,4 @@
-// import Donation from "../Donation/Donation";
+import Donation from "../Donation/Donation";
 import Banner from "../Header/Banner/Banner";
 
 
@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <div>
-                {/* <Donation></Donation> */}
+                <Donation></Donation>
             </div>
         </div>
     );
