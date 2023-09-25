@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/FwvvmD2/Health.png",
+        "category": "health",
+        "title": "Medical Supplies Donation",
+        "description": "Support healthcare initiatives by donating essential medical supplies to improve the health and well-being of underserved communities.",
+        "price": 250,
+        "bg_colour": "#D9E5FF",
+        "text_colour": "#0052FF",
+        "btn_colour": "#ADC7FF"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/8sxmpYj/Education.png",
+        "category": "education",
+        "title": "Scholarship Fund",
+        "description": "Empower students with a scholarship fund for their education, helping them achieve their dreams and reach their full potential.",
+        "price": 300,
+        "bg_colour": "#FFE3E4",
+        "text_colour": "#FF444A",
+        "btn_colour": "#FFC3C5"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/jHVC18f/Clothing.png",
+        "category": "clothing",
+        "title": "Winter Clothing Drive",
+        "description": "Donate warm clothing to help those in need during the winter season and provide comfort and warmth to vulnerable individuals.",
+        "price": 220,
+        "bg_colour": "#EBF5E2",
+        "text_colour": "#79C23F",
+        "btn_colour": "#D4EAC1"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/ThB2C5x/Food.png",
+        "category": "food",
+        "title": "Food Bank Contribution",
+        "description": "Contribute to a local food bank to fight hunger in your community and ensure everyone has access to nutritious meals.",
+        "price": 280,
+        "bg_colour": "#FDE9E3",
+        "text_colour": "#F87147",
+        "btn_colour": "#FCD1C3"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/8sxmpYj/Education.png",
+        "category": "education",
+        "title": "School Supplies Drive",
+        "description": "Provide school supplies to underprivileged students for a brighter future, enabling them to excel academically.",
+        "price": 240,
+        "bg_colour": "#FFE3E4",
+        "text_colour": "#FF444A",
+        "btn_colour": "#FFC3C5"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/FwvvmD2/Health.png",
+        "category": "health",
+        "title": "Healthcare Access Initiative",
+        "description": "Improve healthcare access in underserved areas with your support, ensuring that everyone has the opportunity to lead a healthy life.",
+        "price": 330,
+        "bg_colour": "#D9E5FF",
+        "text_colour": "#0052FF",
+        "btn_colour": "#ADC7FF"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/ThB2C5x/Food.png",
+        "category": "food",
+        "title": "Meal Sponsorship",
+        "description": "Sponsor meals to provide nourishment and hope to those in need, ensuring that no one goes to bed hungry.",
+        "price": 270,
+        "bg_colour": "#FDE9E3",
+        "text_colour": "#F87147",
+        "btn_colour": "#FCD1C3"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/jHVC18f/Clothing.png",
+        "category": "clothing",
+        "title": "Clothing for Homeless",
+        "description": "Offer clothing to homeless individuals to keep them warm, safe, and dignified as they navigate life's challenges.",
+        "price": 310,
+        "bg_colour": "#EBF5E2",
+        "text_colour": "#79C23F",
+        "btn_colour": "#D4EAC1"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/8sxmpYj/Education.png",
+        "category": "education",
+        "title": "Digital Learning Initiative",
+        "description": "Promote digital learning opportunities for students to excel academically and prepare for a tech-driven world.",
+        "price": 260,
+        "bg_colour": "#FFE3E4",
+        "text_colour": "#FF444A",
+        "btn_colour": "#FFC3C5"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/jHVC18f/Clothing.png",
+        "category": "clothing",
+        "title": "Children's Clothing Drive",
+        "description": "Collect clothing for children in need to keep them warm, happy, and ready for a brighter future.",
+        "price": 290,
+        "bg_colour": "#EBF5E2",
+        "text_colour": "#79C23F",
+        "btn_colour": "#D4EAC1"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/ThB2C5x/Food.png",
+        "category": "food",
+        "title": "Community Kitchen Support",
+        "description": "Support a community kitchen providing meals and hope to the hungry, bringing your community closer together.",
+        "price": 350,
+        "bg_colour": "#FDE9E3",
+        "text_colour": "#F87147",
+        "btn_colour": "#FCD1C3"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/FwvvmD2/Health.png",
+        "category": "health",
+        "title": "Medical Research Fund",
+        "description": "Advance medical research to find solutions to critical health issues, making breakthroughs in healthcare possible.",
+        "price": 320,
+        "bg_colour": "#D9E5FF",
+        "text_colour": "#0052FF",
+        "btn_colour": "#ADC7FF"
+    }
+]
