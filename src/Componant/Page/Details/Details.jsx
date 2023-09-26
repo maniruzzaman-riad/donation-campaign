@@ -11,7 +11,9 @@ const Details = () => {
 
     return (
         <div>
-            <h2>details page : {id}</h2>
+            <img className="w-full" src={detaile.image} alt="" />
+            <h2 className="text-4xl font-bold mt-10 mb-5">{detaile.title}</h2>
+            <p className="text-base font-normal">{detaile.description}</p>
         </div>
     );
 };
