@@ -23,7 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/donation',
-        element:<AllDonation></AllDonation>
+        element:<AllDonation></AllDonation>,
+        loader:()=>fetch('../data.json')
       },
       {
         path:'/pie',
