@@ -44,7 +44,7 @@ const Details = () => {
         <div>
             <div className="relative">
                 <img className="w-full" src={detaile.image} alt="" />
-                <div className="bg-black p-5 mix-blend-overlay absolute h-28 w-full bottom-0">
+                <div className="bg-black p-5 opacity-50 absolute h-28 w-full bottom-0">
                     
                 </div>
                 <button onClick={()=>{storageDonation(idInt)}} style={{backgroundColor:detaile.text_colour}} className="text-white absolute bottom-9 left-6 py-2 px-5 text-xl font-semibold rounded-md">Donate ${detaile.price}</button>

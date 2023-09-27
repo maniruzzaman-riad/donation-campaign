@@ -4,8 +4,7 @@ const DonationCard = ({ singleCard }) => {
     const { image, category, title, price, bg_colour, text_colour, btn_colour } = singleCard
     return (
         <div>
-            <div style={{backgroundColor:bg_colour}} className="flex flex-col lg:flex-row rounded-md">{/*card lg:card-side shadow-xl*/}
-                {/* <figure><img className="w-full]" src={image} alt="Album" /></figure> */}
+            <div style={{backgroundColor:bg_colour}} className="flex flex-col lg:flex-row rounded-md">
                 <div className="lg:w-[40%]"><img className="w-full h-full" src={image} alt="Album" /></div>
                 <div className="p-5">
                     <button style={{backgroundColor:btn_colour,color:text_colour}} className="text-base font-medium py-1 px-3 rounded-md">{category}</button>

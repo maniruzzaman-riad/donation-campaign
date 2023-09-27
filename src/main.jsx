@@ -8,9 +8,9 @@ import {
 } from "react-router-dom";
 import Root from './Componant/Root/Root.jsx';
 import Home from './Componant/Home/Home';
-import PieChart from './Componant/Page/PieChart/PieChart';
 import AllDonation from './Componant/Page/AllDonation/AllDonation';
 import Details from './Componant/Page/Details/Details';
+import PChart from './Componant/Page/PChart/PChart';
 
 const router = createBrowserRouter([
   {
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/pie',
-        element:<PieChart></PieChart>
+        element:<PChart></PChart>
       },
       {
         path:'/details/:id',
