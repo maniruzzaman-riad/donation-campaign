@@ -41,7 +41,7 @@ const Details = () => {
     }
 // -------------------------------------------------------------
     return (
-        <div>
+        <div className="mb-14">
             <div className="relative">
                 <img className="w-full" src={detaile.image} alt="" />
                 <div className="bg-black p-5 opacity-50 absolute h-28 w-full bottom-0">

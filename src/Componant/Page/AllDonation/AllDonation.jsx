@@ -33,7 +33,7 @@ const AllDonation = () => {
                     findDonation.slice(0,seeData).map(singleCard => <DonationCard key={singleCard.id} singleCard={singleCard}></DonationCard>)
                 }
             </div>
-            <div className={!isClick ? 'text-center my-5':'hidden'}>
+            <div className={!isClick && findDonation.length > 3 ? 'text-center my-5':'hidden'}>
                 <button onClick={showAllHandle} className="text-base font-semibold bg-green-600 py-1 px-4 rounded-md">See All</button>
             </div>
         </>
